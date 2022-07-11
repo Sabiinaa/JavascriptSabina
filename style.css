@@ -1,0 +1,27 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+}
+
+.box h1 {
+  font-size: 70px;
+  font-weight: 700;
+  margin: 120px 10px 10px 10px;
+}
+
+.box input {
+  border: 9px solid #fde82b;
+  margin: 20px 30px 10px 43px;
+  padding: 10px 20px 10px 10px;
+}
+
+.box .btn {
+  border: 2px solid #030303;
+  margin: 33px 0 0 90px;
+  padding: 10px 10px 20px 10px;
+  color: #fff;
+  background-color: #030303;
+  display: block;
+  width: 81px;
+}
+/*# sourceMappingURL=style.css.map */
