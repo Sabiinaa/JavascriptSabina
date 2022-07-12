@@ -25,15 +25,15 @@ $(document).ready(function () {
 //     input.value = "";
 
 // });
-$('#btn').click(function (e) {
+$('.btn').click(function (e) {
     e.preventDefault();
     let func = a => {
         if (Number(a)) {
             for (let i = 1; i <= a; i++) {
-                $('.contentDiv').append(`<h1>${a}</h1>`);
+                $('.smallbox').append(`<h1>${a}</h1>`);
             }
         } else {
-            $('.contentDiv').append(`<h1>${a}</h1>`);
+            $('.smallbox').append(`<h1>${a}</h1>`);
         }
         input.value = "";
     }
