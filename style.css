@@ -1,21 +1,27 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-.box h1 {
+#demo {
+  background-size: cover;
+  background-position: center;
+  background-image: url("assets new/chevening.jpg");
+}
+#demo .box {
+  height: 128vh;
+}
+#demo .box h1 {
   font-size: 70px;
   font-weight: 700;
   margin: 120px 10px 10px 10px;
 }
-
-.box input {
+#demo .box input {
   border: 9px solid #fde82b;
   margin: 20px 30px 10px 43px;
   padding: 10px 20px 10px 10px;
 }
-
-.box .btn {
+#demo .box .btn {
   border: 2px solid #030303;
   margin: 33px 0 0 90px;
   padding: 10px 10px 20px 10px;
@@ -24,4 +30,10 @@ body {
   display: block;
   width: 81px;
 }
-/*# sourceMappingURL=style.css.map */
+#demo .box .smallbox h3 {
+  width: 300px;
+  margin: 50px;
+  border: 9px solid #fde82b;
+  font-size: 30px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
