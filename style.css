@@ -6,36 +6,40 @@ body {
 #demo {
   background-size: cover;
   background-position: center;
-  background-image: url("assets new/city.jpg");
+  background-image: url("assets new/maldives.jpg");
 }
 #demo .box {
   height: 128vh;
 }
 #demo .box h1 {
   font-size: 70px;
+  border-radius: 31px;
   color: #fff;
   font-weight: 700;
-  margin: 120px 10px 10px 10px;
+  margin: 236px 83px 44px 123px;
 }
 #demo .box input {
-  border: 9px solid #ad9113;
-  color: #ad9113;
-  margin: 20px 30px 10px 43px;
+  border: 4px solid #2ec7db;
+  color: #fff;
+  margin: 6px 40px 37px 85px;
   padding: 10px 20px 10px 10px;
 }
 #demo .box .btn {
-  border: 3px solid #ad9113;
-  margin: 33px 0 0 90px;
-  padding: 10px 10px 20px 10px;
-  color: #ad9113;
+  border: 3px solid #2ec7db;
+  border-radius: 10px;
+  margin: 20px 0 0 141px;
+  padding: 10px 10px 20px 3px;
+  color: #6e7272;
   background-color: #fff;
   display: block;
   width: 81px;
 }
-#demo .box .smallbox h3 {
-  width: 300px;
-  margin: 50px;
-  border: 9px solid #fde82b;
+#demo .box .smallbox {
+  width: 331px;
+  margin: 50px 10px 10px 30px;
+  padding: 169px 38px 64px 35px;
   font-size: 30px;
   color: #fff;
+  border: 8px solid #2ec7db;
+  border-radius: 31px;
 }/*# sourceMappingURL=style.css.map */
