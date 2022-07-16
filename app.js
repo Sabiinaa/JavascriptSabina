@@ -1,20 +1,21 @@
 "use strict";
 $(document).ready(function () {
 
+
+
     $('.btn').click(function (e) {
         e.preventDefault();
-        let func = a => {
-            if (Number(a)) {
-                for (let i = 1; i <= a; i++) {
-                    $('.smallbox').append(`<h1>${a}</h1>`);
-                }
-            } else {
-                $('.smallbox').append(`<h1>${a}</h1>`);
+        if ($.trim($('input').val()) == '') {
+            $('input').val();
+        } else {
+            let k = v => {
+                for (let i = 0; i < v; i++) { $('.smallbox').append(`<h5>${v}</h5>`) };
             }
-            input.value = "";
+            let z = e => Number(e) ? k(e) : $('.smallbox').append(`<h5>${e}</h5>`);
+            z($('input').val());
         }
-        func($('input').val());
-    });
+        $('input').val('')
+    })
 });
 
 
