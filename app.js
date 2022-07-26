@@ -9,13 +9,14 @@ $(document).ready(function () {
             $('input').val();
         } else {
             let k = v => {
-                for (let i = 0; i < v; i++) { $('.smallbox').append(`<h5>${v}</h5>`) };
+                for (let i = 0; i < v; i++) { $('.smallbox').append(`<h2>${v}</h2>`) };
             }
-            let z = e => Number(e) ? k(e) : $('.smallbox').append(`<h5>${e}</h5>`);
+            let z = e => Number(e) ? k(e) : $('.smallbox').append(`<h2>${e}</h2>`);
             z($('input').val());
         }
         $('input').val('')
     })
 });
+
 
 
